@@ -14,7 +14,7 @@ public class Main {
 
         int value = 5;
         for( int i = 0; i <= 10; i++ ) {
-            System.out.println("Шаг " + i + ", значение " + value);
+            System.out.println("Шаг " + i + ", значение " + value); // System.out.println("Шаг " + i + ", значение " + (value += 2));
             value += 2;
         }
     }
